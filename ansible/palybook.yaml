@@ -1,0 +1,4 @@
+- name: Run DevSecOps Cluster Health Checks
+  hosts: all
+  roles:
+    - cluster_check

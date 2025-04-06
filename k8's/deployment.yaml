@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coco-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coco
+  template:
+    metadata:
+      labels:
+        app: coco
+    spec:
+      containers:
+        - name: coco-frontend
+          image: minikubecocofront  # <-- update tag as needed
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 4173
