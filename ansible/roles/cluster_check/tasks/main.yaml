@@ -1,2 +1,2 @@
-- include_tasks: check_docker.yml
-- include_tasks: check_k8s.yml
+- include_tasks: check_docker.yaml
+- include_tasks: check_k8s.yaml
