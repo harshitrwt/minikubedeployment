@@ -49,24 +49,13 @@ graph LR
    minikube service coco-frontend-service
    ```
 
-## 📂 Folder Structure
-```
-project/
-├── ansible/
-│   ├── inventory/hosts.ini
-│   ├── playbook.yaml
-│   └── roles/cluster_check/tasks/
-│       ├── check_docker.yaml
-│       └── check_k8s.yaml
-├── k8s/
-│   ├── deployment.yaml
-│   └── service.yaml
-├── .github/workflows/
-│   └── docker-publish.yaml
-├── Dockerfile
-├── frontend/  # Your actual app code
-└── README.md
-```
+## How to Run 🌱
+
+### Prerequisites:
+- **Minikube** installed and running.
+- **DockerHub** account with your Docker credentials stored in GitHub Secrets.
+- **kubectl** and **Ansible** set up locally.
+- **GitHub Actions** workflows set up for continuous deployment.
 
 ---
 
