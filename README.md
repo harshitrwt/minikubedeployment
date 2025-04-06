@@ -1,4 +1,4 @@
-# Fully Automated based DevOps Project 🥥
+# Fully Automated DevOps Project 🥥
 
 ## Overview 🌴
 This project is a **fully automated DevOps pipeline** for deploying a fun summer-themed "Coconut Website" using a combination of **Docker, GitHub Actions, Ansible, and Kubernetes (Minikube)**. It showcases the power of Infrastructure as Code (IaC), CI/CD pipelines, and container orchestration in a clean and reusable structure.
