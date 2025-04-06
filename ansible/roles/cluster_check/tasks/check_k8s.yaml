@@ -1,6 +1,9 @@
 - name: Apply Kubernetes deployment
-  shell: kubectl apply -f k8s/deployment.yaml
+  shell: kubectl apply -f ../k8s/deployment.yaml
+  args:
+    chdir: "{{ playbook_dir }}"
 
 - name: Apply Kubernetes service
-  shell: kubectl apply -f k8s/service.yaml
-
+  shell: kubectl apply -f ../k8s/service.yaml
+  args:
+    chdir: "{{ playbook_dir }}"
