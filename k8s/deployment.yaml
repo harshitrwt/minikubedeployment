@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: coco-frontend
-          image: minikubecocofront  # <-- update tag as needed
+          image: harshitrwt009/minikubecocofront  # ✅ Correct full image name
           imagePullPolicy: Always
           ports:
             - containerPort: 4173
+
