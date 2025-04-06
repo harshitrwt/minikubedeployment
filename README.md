@@ -1,11 +1,11 @@
-# 🥥 Coconut Frontend - Fully Automated DevOps Project
+# Fully Automated based DevOps Project 🥥
 
-## 🌴 Overview
+## Overview 🌴
 This project is a **fully automated DevOps pipeline** for deploying a fun summer-themed "Coconut Website" using a combination of **Docker, GitHub Actions, Ansible, and Kubernetes (Minikube)**. It showcases the power of Infrastructure as Code (IaC), CI/CD pipelines, and container orchestration in a clean and reusable structure.
 
 ![Screenshot 2025-04-06 121332](https://github.com/user-attachments/assets/a3dc1549-74f4-4103-b178-b7c6b754ad06)
 
-## 📦 Tech Stack & Tools Used!
+## Tools Used 📦 
 
 ```mermaid
 graph LR
@@ -29,7 +29,7 @@ graph LR
 | **Minikube**   | Hosts the Kubernetes cluster locally.                                   |
 | **Kubernetes** | Manages the pods, services, and deployment of the app.                  |
 
-## 🔄 Project Workflow (Step-by-Step)
+## 🔄 Project Workflow 
 
 1. **Code is pushed to GitHub**
 2. **GitHub Actions** workflow triggers:
@@ -59,7 +59,7 @@ graph LR
 
 ---
 
-## 🔥 Why This Is A Strong DevOps Project
+## Why This Is A Strong DevOps Project 🔥 
 - **CI/CD**: Automated end-to-end Docker build and push
 - **IaC**: Everything from Kubernetes manifests to Ansible roles is code-defined
 - **Real-time deployable**: Run one command to bring the cluster to life
