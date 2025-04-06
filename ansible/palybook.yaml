@@ -1,4 +1,7 @@
-- name: Run DevSecOps Cluster Health Checks
-  hosts: all
+- name: Setup Minikube and Deploy App
+  hosts: local
+  connection: local
+  gather_facts: no
+
   roles:
     - cluster_check

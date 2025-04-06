@@ -1,8 +1,4 @@
-- name: Check if Docker is installed
-  command: docker --version
-  register: docker_version
-  changed_when: false
+- name: Pull Docker image from Docker Hub
+  shell: docker pull harshitrwt009/minikubecocofront:v1
 
-- name: Display Docker Version
-  debug:
-    var: docker_version.stdout
+
